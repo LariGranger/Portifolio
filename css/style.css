@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap&family=Lobster&display=swap&family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+}
+
+#nav, .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.container{
+    justify-content: space-around;
+}
+
+/*MENU*/
+#nav{
+    width: 50%;
+    background-color: #4b1c71;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#sobre, #skills, #projetos{
+    width: 10%;
+    text-align: center;
+    background-color: #4b1c71;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+#sobre h2, #skills h2, #projetos h2{
+    font-size: 20px;
+}
+
+
+#nav p{
+    font-family: 'Lobster', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+
+#nav a{
+    color: #FFF; 
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+#nav a:hover,
+#nav a:active {
+    color: #dbb6ee;
+    font-size: 22px;
+}
+
+/*MAIN - HOME*/
+.container{
+    color: #FFF;
+    margin-top: 90px;
+}
+.container img{
+    width: 300px;
+    border-radius: 233px;
+}
+.container h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+.color{
+    color: #b57edc;
+}
+
+#links img{
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
